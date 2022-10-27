@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pickup-Line-Generator/static/css/main.64c8f918.css",
+    "main.js": "/Pickup-Line-Generator/static/js/main.61aa5a93.js",
+    "index.html": "/Pickup-Line-Generator/index.html",
+    "main.64c8f918.css.map": "/Pickup-Line-Generator/static/css/main.64c8f918.css.map",
+    "main.61aa5a93.js.map": "/Pickup-Line-Generator/static/js/main.61aa5a93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64c8f918.css",
+    "static/js/main.61aa5a93.js"
+  ]
+}
