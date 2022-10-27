@@ -31,11 +31,20 @@
 }
 
 /* media query */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .popup {
     width: 80%;
   }
   .pickup {
-    height: 50rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  .popup {
+    width: 80%;
+  }
+  .pickup {
+    height: 49rem;
   }
 }
