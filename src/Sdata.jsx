@@ -38,6 +38,46 @@ const Data = [
     {
         gender: "female",
         description: "I think there's something wrong with my phone. Could you try calling it to see if it works?"
+    },
+    {
+        gender: "male",
+        description: "Did your license get suspended for driving all girls crazy?"
+    },
+    {
+        gender: "male",
+        description: "I am learning about important dates in history. Want to be one of them?"
+    },
+    {
+        gender: "male",
+        description: "Do you happen to have an extra heart? Mine seems to be stolen."
+    },
+    {
+        gender: "male",
+        description: "Can I follow you where you are going right now? Because I was taught to follow my dreams."
+    },
+    {
+        gender: "male",
+        description: "Are you a bank loan? Because you got my interest."
+    },
+    {
+        gender: "male",
+        description: "Your eyes are like Ikea. I can get lost in them."
+    },
+    {
+        gender: "male",
+        description: "Something is wrong with my eyes because I cannot take them off you."
+    },
+    {
+        gender: "male",
+        description: "Was it love at first sight? Or should I walk past you again?"
+    },
+    {
+        gender: "male",
+        description: "Do you have a name? Or can I call you mine?"
+    },
+    {
+        gender: "male",
+        description: "Is your name Google? Because you are everything I have been searching for."
     }
 ];
 

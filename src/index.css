@@ -1,3 +1,7 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+
 .main {
   height: 100vh;
   background-color: rgb(40, 40, 100);
@@ -5,16 +9,18 @@
 
 .popup {
   width: 40%;
+  background-color: rgb(218, 218, 255);
+  box-shadow: 0px 0px 30px rgb(251, 251, 251);
 }
 
 #male {
   width: 5rem;
-  background-color: rgb(200, 200, 212);
+  background-color: rgb(172, 172, 188);
 }
 
 #female {
   width: 5rem;
-  background-color: rgb(200, 200, 212);
+  background-color: rgb(172, 172, 188);
 }
 
 .main-div {
@@ -24,27 +30,50 @@
 
 .heading {
   background-color: rgb(200, 200, 212);
+  /* font-family: "Michroma", sans-serif; */
+  font-family: "Oleo Script", cursive;
 }
 
 .pickup {
   height: 39rem;
 }
 
+/* .copy-icon {
+  color: white;
+} */
+
+.box {
+  height: 10rem;
+  box-shadow: 0px 0px 15px rgb(251, 251, 251);
+}
+
+.box-body {
+  height: 4rem;
+}
+
+#line {
+  color: rgb(152, 149, 149);
+}
+
+/* h3 {
+  font-family: "Work Sans", sans-serif;
+} */
+
 /* media query */
 @media screen and (max-width: 400px) {
   .popup {
-    width: 80%;
+    width: 90%;
   }
   .pickup {
-    height: 40rem;
+    height: 39rem;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 450px) {
   .popup {
-    width: 80%;
+    width: 90%;
   }
   .pickup {
-    height: 49rem;
+    height: 50.5rem;
   }
 }
