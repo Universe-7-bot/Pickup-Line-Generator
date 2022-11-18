@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Pickup-Line-Generator/static/css/main.e4c9dd48.css",
-    "main.js": "/Pickup-Line-Generator/static/js/main.8bb1c680.js",
+    "main.css": "/Pickup-Line-Generator/static/css/main.23f13c4b.css",
+    "main.js": "/Pickup-Line-Generator/static/js/main.be8c1685.js",
     "index.html": "/Pickup-Line-Generator/index.html",
-    "main.e4c9dd48.css.map": "/Pickup-Line-Generator/static/css/main.e4c9dd48.css.map",
-    "main.8bb1c680.js.map": "/Pickup-Line-Generator/static/js/main.8bb1c680.js.map"
+    "main.23f13c4b.css.map": "/Pickup-Line-Generator/static/css/main.23f13c4b.css.map",
+    "main.be8c1685.js.map": "/Pickup-Line-Generator/static/js/main.be8c1685.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4c9dd48.css",
-    "static/js/main.8bb1c680.js"
+    "static/css/main.23f13c4b.css",
+    "static/js/main.be8c1685.js"
   ]
 }
