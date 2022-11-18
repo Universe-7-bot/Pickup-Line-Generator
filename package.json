@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-floating-balloons": "^3.0.1",
     "react-scripts": "5.0.1",
+    "react-share": "^4.4.1",
     "react-toastify": "^9.0.8",
     "sbuttons": "^1.11.0",
     "styled-components": "^5.3.6",

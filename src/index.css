@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
 
+body {
+  overflow: hidden;
+}
+
 .main {
   height: 100vh;
   background-color: rgb(40, 40, 100);
@@ -34,6 +38,10 @@
   font-family: "Oleo Script", cursive;
 }
 
+.off-btn {
+  background-color: rgb(100, 100, 154) !important;
+}
+
 .pickup {
   height: 39rem;
 }
@@ -55,25 +63,99 @@
   color: rgb(152, 149, 149);
 }
 
+.hamburg {
+  width: 5rem;
+}
+
+.head {
+  width: 85rem;
+}
+
+/* off-canvas */
+
+.offcanvas {
+  background-color: rgb(200, 200, 212) !important;
+  font-family: sans-serif;
+}
+
+.off {
+  width: 100%;
+}
+
+.offcanvas-title {
+  font-family: "Oleo Script", cursive;
+}
+
+.off-btn-main {
+  width: 50%;
+  background-color: rgb(40, 40, 100) !important;
+}
+
+.heart {
+  animation: beat 0.25s infinite alternate;
+  transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat {
+  to {
+    transform: scale(1.2);
+  }
+}
+
 /* h3 {
   font-family: "Work Sans", sans-serif;
 } */
 
 /* media query */
 @media screen and (max-width: 400px) {
+  body {
+    overflow: hidden;
+  }
+
   .popup {
     width: 90%;
   }
+
   .pickup {
     height: 39rem;
+  }
+
+  .hamburg {
+    padding-left: 2px;
+  }
+
+  .offcanvas {
+    width: 80% !important;
+  }
+
+  .off-btn-main {
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 450px) {
+  body {
+    overflow: hidden;
+  }
+
   .popup {
     width: 90%;
   }
+
   .pickup {
     height: 50.5rem;
+  }
+
+  .hamburg {
+    padding-left: 2px;
+  }
+
+  .offcanvas {
+    width: 80% !important;
+  }
+
+  .off-btn-main {
+    width: 65%;
   }
 }
